@@ -10,7 +10,7 @@ class Appointment
   #def add_appointment()
 
   def patient(name)
-    @patient
+    @patient = name
   end
 
 
