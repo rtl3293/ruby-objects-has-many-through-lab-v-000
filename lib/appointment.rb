@@ -9,9 +9,6 @@ class Appointment
 
   #def add_appointment()
 
-  def patient
-    @patient
-  end
 
 
 end
