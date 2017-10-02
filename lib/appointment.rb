@@ -8,6 +8,9 @@ class Appointment
   end
 
   #def add_appointment()
+  def patient
+    @patient
+  end
   
 
 
