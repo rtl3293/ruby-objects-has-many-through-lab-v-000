@@ -5,14 +5,14 @@ class Appointment
     @date = date
     @doctor = doctor
     @doctor.add_appointment(date)
-    @doctor.patients << @patient
   end
 
   #def add_appointment()
 
-  # def patient
-  #   @patient
-  # end
+  def patient
+    @doctor.patients << @patient
+    @patient  
+  end
 
 
 end
