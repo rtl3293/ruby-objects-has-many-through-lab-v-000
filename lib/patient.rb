@@ -12,4 +12,5 @@ class Patient
     appointment.patient = self
     @doctors << appointment.doctor
   end
+
 end
