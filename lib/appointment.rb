@@ -6,6 +6,6 @@ class Appointment
     @doctor.add_appointment(date)
   end
 
-  
+
 
 end
