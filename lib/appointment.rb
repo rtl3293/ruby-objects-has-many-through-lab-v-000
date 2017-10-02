@@ -11,6 +11,10 @@ class Appointment
   def patient
     @patient
   end
+
+  def patient=(name)
+    @patient = name
+  end
   
 
 
