@@ -11,7 +11,7 @@ class Appointment
 
   def patient
     @patient
-    @doctor.patients << @patient
+    #@doctor.patients << @patient
   end
 
 
