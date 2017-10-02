@@ -7,5 +7,9 @@ class Appointment
     @doctor.add_appointment(date)
   end
 
+  def patient(name)
+    @patient = name
+  end
+
 
 end
